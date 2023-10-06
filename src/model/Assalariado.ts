@@ -17,3 +17,4 @@ export class Assalariado extends Empregado{
         return this.salario;
     }
 }
+

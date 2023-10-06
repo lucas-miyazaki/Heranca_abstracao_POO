@@ -19,4 +19,6 @@ export abstract class Empregado {
     public getCpf(): string {
         return this.cpf;
     }
+    public abstract vencimento(): number;
 }
+
